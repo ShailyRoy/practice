@@ -1,6 +1,10 @@
 .p02 {
     color: blueviolet;
 }
+p{
+
+    text-align: center;
+}
 h1 {
 
     text-align: center;
@@ -35,6 +39,8 @@ h6 {
 
 body {
     background-image: url("backimage.jpg");
+    text-align: center;
+    text-decoration-color: bisque;
 }
 
 .h2-div {
@@ -56,3 +62,9 @@ body {
     color: wheat
 }
 
+p.mix {
+    border-style: dotted dashed solid double;
+    color: whitesmoke;
+    border-color: red green blue yellow;
+
+}

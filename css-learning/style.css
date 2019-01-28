@@ -152,3 +152,11 @@ a:link {
         left: 900px;
         z-index: -1;
       }
+#scroll  {
+        background-color:lightseagreen;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
+        overflow: auto;
+        left: 900px;
+      }

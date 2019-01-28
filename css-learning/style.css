@@ -3,12 +3,11 @@
 }
 p{
 
-    text-align: center;
   
 }
 h1 {
 
-    text-align: center;
+    
     color: cyan;
  
     text-decoration: underline;
@@ -39,7 +38,7 @@ h6 {
 
 body {
     background-image: url("backimage.jpg");
-    text-align: center;
+  
     color: white
 }
 
@@ -110,12 +109,14 @@ a:link {
   a:active {
     color: blue;
   }
+  .clearfix {
+    overflow: auto;
+  }
   
   #img0 {
-      float:right;
-      padding: 20px;
-      z-index: -1;
-  }
+    float: right;
+    margin: 30px;
+}
 
   /* all about tables */
 
@@ -128,6 +129,7 @@ a:link {
     padding: 8px;
     text-align: left;
     border: 1px solid #ddd;
+   
   }
   
   tr:hover {
@@ -149,9 +151,12 @@ a:link {
 
 #img1 {
         position: absolute;
-        left: 900px;
-        z-index: -1;
+        z-index: -1; 
+        margin:30px;
+        height:30px;
+        width: 50%;
       }
+
 #scroll  {
         background-color:lightseagreen;
         width: 200px;
@@ -159,4 +164,9 @@ a:link {
         border: 1px dotted black;
         overflow: auto;
         left: 900px;
+        padding: 20px;
+        margin-top:30px;
+
       }
+
+      

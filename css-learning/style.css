@@ -4,19 +4,17 @@
 p{
 
     text-align: center;
+  
 }
 h1 {
 
     text-align: center;
     color: cyan;
-
+ 
+    text-decoration: underline;
 }
-h2 {
 
-    text-align: center;
-    
 
-}
 #p01 {
     /* paragraph color" */
     color:hotpink;
@@ -29,7 +27,9 @@ h2 {
 
     color: green !important;
     text-align: center;
+    text-decoration: line-through;
 }
+
 
 
 h6 {
@@ -40,7 +40,7 @@ h6 {
 body {
     background-image: url("backimage.jpg");
     text-align: center;
-    text-decoration-color: bisque;
+    color: white
 }
 
 .h2-div {
@@ -67,8 +67,23 @@ p.mix {
     color: whitesmoke;
     border-color: red green blue yellow;
     background-color: black;
-    height: 80px;
+    height: 40px;
     width: 100%;   padding: 100px 20px;
     outline: 1px solid rgb(255, 166, 0);
     outline-offset: 15px;
 }
+
+p.capitalize {
+    line-height: 0.7;
+    text-transform: capitalize; text-indent: 50px;  letter-spacing: -3px;
+  }
+
+  p.uppercase {
+    text-transform: uppercase; letter-spacing: 3px;  line-height: 2.8;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;  padding: 20px;   line-height: 0.7;direction: rtl;
+    word-spacing: 10px;
+    text-shadow: 3px 2px whitesmoke;
+  }

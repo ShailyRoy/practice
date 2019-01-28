@@ -169,4 +169,13 @@ a:link {
 
       }
 
-      
+      div > p {
+        background-color:peru;
+      }
+      div + p {
+        background-color: lightcoral;
+      }
+
+      div ~ p {
+        background-color: indigo;
+      }

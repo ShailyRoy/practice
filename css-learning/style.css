@@ -1,27 +1,41 @@
 .p02 {
     color: blueviolet;
 }
+h1 {
 
+    text-align: center;
+    color: cyan;
+
+}
+h2 {
+
+    text-align: center;
+    
+
+}
 #p01 {
     /* paragraph color" */
     color:hotpink;
 
 }
 
-//!important er priority always beshi
-
+/*!important er priority always beshi
+*/
 .p01 {
 
     color: green !important;
+    text-align: center;
 }
-}
+
 
 h6 {
     color: peru;
 }
 /*id er priority class theke beshi.multiple class hole nicher tar priority beshi */
 
-
+body {
+    background-image: url("backimage.jpg");
+}
 
 .h2-div {
     color:burlywood ;
@@ -36,7 +50,9 @@ h6 {
 }
 
 .box {
-
+/* top bottom , right-left 2ta value nile */
+/* 3ta nile top, right, bottom e nibe and right er ta left eo nibe */
     padding: 10px 20px;
-    color: blue
+    color: wheat
 }
+

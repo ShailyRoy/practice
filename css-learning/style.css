@@ -113,4 +113,27 @@ a:link {
   
   img {
       float:right;
+      padding: 20px;
+
   }
+
+  /* all about tables */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  tr:hover {
+      background-color:crimson ;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+      }

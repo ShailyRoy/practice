@@ -3,9 +3,25 @@
 }
 
 #p01 {
+    /* paragraph color" */
     color: green;
 }
 
 h6 {
     color: peru;
+}
+/*id er priority class theke beshi.multiple class hole nicher tar priority beshi */
+
+
+
+.h2-div {
+    color:burlywood;
+}
+
+.h2-div2 {
+    color: red;
+}
+
+#h2-div {
+    color:yellowgreen;
 }

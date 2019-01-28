@@ -66,5 +66,9 @@ p.mix {
     border-style: dotted dashed solid double;
     color: whitesmoke;
     border-color: red green blue yellow;
-
+    background-color: black;
+    height: 80px;
+    width: 100%;   padding: 100px 20px;
+    outline: 1px solid rgb(255, 166, 0);
+    outline-offset: 15px;
 }

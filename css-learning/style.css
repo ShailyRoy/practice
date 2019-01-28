@@ -174,7 +174,7 @@ a:link {
       }
 
       div ~ p {
-        background-color: indigo;
+        background-color: rgba(22, 70, 175, 0.336);
       }
       div {
         background-color:black;
@@ -196,3 +196,15 @@ a:link {
       div:hover .p06 {
         display: block;
       }
+
+      p i:first-child {
+        color: blue;
+      } 
+      p::first-letter {
+        color: #ff0000;
+        font-size: xx-large;
+      }
+      p::first-line {
+        font-variant: small-caps;
+      }
+      

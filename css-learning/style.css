@@ -4,7 +4,15 @@
 
 #p01 {
     /* paragraph color" */
-    color: green;
+    color:hotpink;
+
+}
+
+
+.p01 {
+
+    color: green !important;
+}
 }
 
 h6 {
@@ -15,7 +23,7 @@ h6 {
 
 
 .h2-div {
-    color:burlywood;
+    color:burlywood ;
 }
 
 .h2-div2 {
@@ -25,3 +33,4 @@ h6 {
 #h2-div {
     color:yellowgreen;
 }
+

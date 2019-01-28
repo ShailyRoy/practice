@@ -8,6 +8,7 @@
 
 }
 
+//!important er priority always beshi
 
 .p01 {
 
@@ -34,3 +35,8 @@ h6 {
     color:yellowgreen;
 }
 
+.box {
+
+    padding: 10px 20px;
+    color: blue
+}

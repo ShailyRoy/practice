@@ -111,3 +111,6 @@ a:link {
     color: blue;
   }
   
+  img {
+      float:right;
+  }

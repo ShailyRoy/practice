@@ -111,10 +111,10 @@ a:link {
     color: blue;
   }
   
-  img {
+  #img0 {
       float:right;
       padding: 20px;
-
+      z-index: -1;
   }
 
   /* all about tables */
@@ -145,4 +145,10 @@ a:link {
   padding: 5px;
   background-color: tomato;
   border: 2px solid #4CAF50;
+      }
+
+#img1 {
+        position: absolute;
+        left: 900px;
+        z-index: -1;
       }

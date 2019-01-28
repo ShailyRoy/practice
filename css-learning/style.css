@@ -6,7 +6,6 @@ h1 {
 
     
     color: cyan;
- 
     text-decoration: underline;
 }
 
@@ -136,6 +135,8 @@ a:link {
         background-color: #4CAF50;
         color: white;
       }
+
+
  .sticky {
           
     position: -webkit-sticky;
@@ -165,7 +166,7 @@ a:link {
         margin-top:30px;
 
       }
-
+/* combinators */
       div > p {
         background-color:peru;
       }
@@ -175,7 +176,7 @@ a:link {
 
       div ~ p {
         background-color: rgba(22, 70, 175, 0.336);
-      }
+      } 
       div {
         background-color:black;
         color: white;
@@ -183,11 +184,12 @@ a:link {
         text-align: center;
     
       }
+
       div:hover {
         background-color:rgb(32, 50, 100);
  
       }
-
+/* pseudo class */
       p.p06 {
         display: none;
         background-color: rgb(114, 90, 170);
@@ -196,7 +198,7 @@ a:link {
       div:hover .p06 {
         display: block;
       }
-
+/* pseudo elem */
       p i:first-child {
         color: blue;
       } 
@@ -207,4 +209,35 @@ a:link {
       p::first-line {
         font-variant: small-caps;
       }
+      h6::before {
+        content: url(smiley.gif);
+        height: 50px;
+        width: 50px;
+      }
+
+      /*opacity css */
+
+      img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50); 
+      }
+      .first {
+        opacity: 0.1;
+        filter: alpha(opacity=10);
+      }
       
+      .second {
+        opacity: 0.3;
+        filter: alpha(opacity=30); 
+      }
+      
+      .third {
+        opacity: 0.6;
+        filter: alpha(opacity=60); 
+      }
+
+h3 {
+
+    background-color: rgb(92, 14, 85);
+    padding: 10px;
+}

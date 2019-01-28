@@ -68,9 +68,11 @@ p.mix {
     border-color: red green blue yellow;
     background-color: black;
     height: 40px;
-    width: 100%;   padding: 100px 20px;
+    width: 50%;   padding: 100px 20px;
+    background-position-x: 90ch;
     outline: 1px solid rgb(255, 166, 0);
     outline-offset: 15px;
+    margin-left: 22%;
 }
 
 p.capitalize {
@@ -87,3 +89,5 @@ p.capitalize {
     word-spacing: 10px;
     text-shadow: 3px 2px whitesmoke;
   }
+
+  

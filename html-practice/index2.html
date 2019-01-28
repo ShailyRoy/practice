@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+.cities {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+<title>my html code2</title>
+<link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+</head>
+
+
+<body>
+
+
+<h1>heading1</h1>
+<h2 style ="color: blue;" > heading2</h2>
+<h6 style ="background-color: tomato;" >  heading6</h6>
+
+<span> nline text1.</span>
+<span>nline text2</span>
+
+
+<p title ="paragraph cursor ">paragraph.<br> 2nd line</p>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+
+
+
+
+<div id="home">
+	<h3>home e aslam</h3>
+	
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<br>
+<br><br>
+<iframe height="500px" width="100%" src="https://www.appscode.com" name="iframe_a"></iframe>
+
+
+
+</div>
+
+
+
+<div id="news">
+	<h3>news e aslam</h3>
+	
+	<form method="GET" action="http://example.com">
+	first name: <input type="text" placeholder="enter first name" name= "fname" autocomplete="autocomplete" required="required"> <br>
+	password: <input type="password" placeholder="enter valid password"> <br>
+	Date: <input type="date" placeholder="enter date" autocomplete="autocomplete"> <br>
+	phone: <input type="number" placeholder="enter phone number" autocomplete="autocomplete"> <br>
+	Color: <input type="color" placeholder="" autocomplete="autocomplete"> <br>
+	Email: <input type="email" placeholder="enter mail" name="email" autocomplete="autocomplete"> <br>
+	radio: <input type="radio" placeholder="" autocomplete="autocomplete"> <br>
+	Web: <input type="url" placeholder="enter url" autocomplete="autocomplete"> <br>
+
+
+<textarea>
+hahahahaha
+</textarea>
+<br/>
+<textarea rows= "10" cols="100">
+guhjnk
+</textarea>
+<br>
+<br><br>
+Select:
+<select>
+		<option> option1</option>
+		<option> option2</option>
+		<option selected> option3</option>
+		<option> option4</option>
+</select>
+<br>
+<br><br>
+<button type="submit"> Submit </button>
+</form>
+<br>
+<br><br>
+</div>
+
+
+
+<div id="about">
+	<h3>about e aslam</h3>
+	<div class="cities">
+<h2>London</h2>
+<p>London is the capital of England.</p>
+</div> 
+
+<div class="cities">
+<h2>Paris</h2>
+<p>Paris is the capital of France.</p>
+</div>
+
+<div class="cities">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+</div>
+</div>
+
+
+<div id="contact">
+	<h3>contact e aslam</h3>
+	
+	<img src="workplace.jpg" alt="Workplace" ><br>
+	
+	<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+	
+<br><br><br>
+<br><br>
+</div>
+
+
+
+</body>
+</html>

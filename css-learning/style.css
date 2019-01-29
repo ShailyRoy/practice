@@ -321,3 +321,7 @@ li.dropdown {
   height: 44px;
   background: url(img_navsprites.gif) -91px 0;
 }
+
+[class^="top"] {
+  background: black;
+}

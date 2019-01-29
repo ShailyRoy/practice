@@ -7,3 +7,4 @@ function factorial(n) {
     }
 
     console.log(factorial(8));
+    console.log(8 * null);

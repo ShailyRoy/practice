@@ -21,3 +21,8 @@ while (number <= 12) {
 console.log(number);
 number = number + 2;
 }
+
+
+for (let number = 0; number <= 12; number = number + 2) {
+    console.log(number);
+    }

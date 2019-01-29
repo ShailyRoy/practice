@@ -259,8 +259,6 @@ a.active {
 /*dropdown*/
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333;
 }
@@ -382,7 +380,7 @@ li.dropdown {
 }
 
 /* Responsive layout */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column.side, .column.middle {
     width: 100%;
   }
@@ -394,4 +392,10 @@ li.dropdown {
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
+}
+@media screen and (max-width: 400px) {
+  ul {
+    float: none;
+    width: 100%;
+  }
 }

@@ -68,3 +68,9 @@ const power = (base, exponent) => {
     };
 console.log(power(2,4));
 horn();
+//closure
+function multiplier(factor) {
+    return number => number * factor;
+    }
+    let twice = multiplier(7);
+    console.log(twice(5));

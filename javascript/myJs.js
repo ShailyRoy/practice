@@ -14,3 +14,10 @@ console.log(mood);
 // → light
 mood = "dark";
 console.log(mood);
+console.log(Math.min(2, 4) + 100);
+
+let number = 0;
+while (number <= 12) {
+console.log(number);
+number = number + 2;
+}

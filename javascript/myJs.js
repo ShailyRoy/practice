@@ -26,3 +26,11 @@ number = number + 2;
 for (let number = 0; number <= 12; number = number + 2) {
     console.log(number);
     }
+
+for(let num=0;num<6;num++)
+{
+    let s="";
+    for(let num2 = 0;num2<=num;num2++)
+    s=s+"*";
+    console.log(s);
+}

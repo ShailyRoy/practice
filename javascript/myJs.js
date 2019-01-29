@@ -43,3 +43,13 @@ const power = function(base, exponent) {
     return result;
     };
 console.log(power(2, 10));
+
+let x = 10;
+if (true) {
+let y = 20;
+var z = 30;
+console.log(x + y + z);
+// → 60
+}
+// y is not visible here
+console.log(x + z);

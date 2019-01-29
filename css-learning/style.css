@@ -2,7 +2,7 @@
 
 
 .p02 {
-    color: blueviolet;
+    color:wheat;
 }
 
 h1 {
@@ -76,10 +76,12 @@ p.mix {
 p.capitalize {
     line-height: 0.7;
     text-transform: capitalize; text-indent: 50px;  letter-spacing: -3px;
+    color: white;
   }
 
   p.uppercase {
     text-transform: uppercase; letter-spacing: 3px;  line-height: 2.8;
+    color: white;
   }
   
   p.lowercase {
@@ -176,7 +178,7 @@ a:link {
         background-color:peru;
       }
       div + p {
-        background-color: lightcoral;
+        background-color: rgb(42, 8, 138);
       }
 
       div ~ p {
@@ -257,8 +259,6 @@ a.active {
 /*dropdown*/
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333;
 }
@@ -304,4 +304,98 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* spliting image */
+
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(img_navsprites.gif) 0 0;
+}
+
+#next {
+  width: 43px;
+  height: 44px;
+  background: url(img_navsprites.gif) -91px 0;
+}
+
+[class^="top"] {
+  background: black;
+}
+
+/* form */
+#f1{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+ 
+}
+
+#s1 {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+/*layout */
+.header {
+  background-color: #030303;
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  ul {
+    float: none;
+    width: 100%;
+  }
 }

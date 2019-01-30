@@ -68,6 +68,10 @@ const power = (base, exponent) => {
     };
 console.log(power(2,4));
 horn();
+
+
+
+
 //closure
 function multiplier(factor) {
     return number => number * factor;
@@ -75,22 +79,47 @@ function multiplier(factor) {
     let twice = multiplier(7);
     console.log(twice(5));
 
+
+/*
+ that can be written as:
+
+function multiplier(factor) {
+
+  return function (number) {
+    return number * factor;
+  } 
+}
+    let twice = multiplier(7);
+    console.log(twice(5));
+
+
+//return number => number * factor; it can be written as 
+"
+const f = (number) => {
+  const ret = number * factor;
+  return ret;
+}
+"
+
+f(2);
+
+*/
+
 //hoisting
 
-var text = 'out';
-var text = 'ot';
+
+var text='out';
 
 function output(){
-    var text = 'inside';
-    console.log(text);
+   var text = 'inside';
+    console.log(">>>>", text);
   //  var text = 'inside';
 }
 
 output();
-console.log(text); 
+
 
 /*
-var text = undefined;
 var text = undefined;
 
 function output(){
@@ -99,10 +128,53 @@ function output(){
     console.log(text);
 }
  text = 'out';
- text = 'ot';
  output();
 console.log(text); 
 */
-/*
-var name 
-*/
+//shared scope
+function f1() {
+    const cnt=0;
+
+    setTimeout(function(){
+        console.log(cnt++);
+    },100);
+
+    setTimeout(function(){
+        console.log(cnt++);
+    },200);
+}
+
+//nested scope
+function f1() {
+    const cnt=0;
+
+    setTimeout(function(){
+        console.log(cnt++);
+
+        setTimeout(function(){
+            console.log(cnt++);
+        },200);
+
+    },100);
+
+
+}
+
+
+//age for loop ghure i=5 hoye jay.so i=5bar print hoy 1000ms por por...set time k stack e rekhe dey, loop ses hole 0 tomo sec theke print howa start kore . eijonnno i er value loop e kaj korleo print er time e final value ney
+for(var i=0;i<5;i++){
+    setTimeout(function(){
+        console.log(i);
+    }, i*1000);
+}
+//to solve it immidiately invoke function expression as pashei (i) likhe function call kore dc.
+//it will print 0 1 2 3 4 . ekhane i globaslly 5 hoye geleo local j te value store thake. so thik number print kore
+//j na likhe i dileo thik ans asbe as local scope e thik value saved thakbe
+for(var i=0;i<5;i++){
+    (function(j){
+        setTimeout(function(){
+            console.log(j);
+        }, i*1000);
+    })(i)
+}
+

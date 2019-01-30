@@ -74,3 +74,35 @@ function multiplier(factor) {
     }
     let twice = multiplier(7);
     console.log(twice(5));
+
+//hoisting
+
+var text = 'out';
+var text = 'ot';
+
+function output(){
+    var text = 'inside';
+    console.log(text);
+  //  var text = 'inside';
+}
+
+output();
+console.log(text); 
+
+/*
+var text = undefined;
+var text = undefined;
+
+function output(){
+    var text = undefined;
+    text = 'inside';
+    console.log(text);
+}
+ text = 'out';
+ text = 'ot';
+ output();
+console.log(text); 
+*/
+/*
+var name 
+*/

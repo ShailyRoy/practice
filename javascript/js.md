@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Hoisting
 
 1. find out all var and declare as `undefined` in the beginning of the corresponding function scope.
@@ -17,9 +18,15 @@ clousure is a characteristics of function which remembers the values of lexical 
 
 mutual redcursion
 =======
+=======
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
 //hoisting
 1.find out all var and declare as undefined in the beginning of the corresponding function scope.
 2.then find out declared function and stage that after undefined var.
 3.erase the word "var" from all the assigned variable.
+<<<<<<< HEAD
+4. then execute all called functions.
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
+=======
 4. then execute all called functions.
 >>>>>>> 84c4047... Learn Hoisting, Add a file for description

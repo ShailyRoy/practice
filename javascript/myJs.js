@@ -80,6 +80,7 @@ function multiplier(factor) {
     console.log(twice(5));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
  that can be written as:
@@ -115,6 +116,8 @@ function output(){
    var text = 'inside';
     console.log(">>>>", text);
 =======
+=======
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
 //hoisting
 
 var text = 'out';
@@ -123,22 +126,31 @@ var text = 'ot';
 function output(){
     var text = 'inside';
     console.log(text);
+<<<<<<< HEAD
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
+=======
 >>>>>>> 84c4047... Learn Hoisting, Add a file for description
   //  var text = 'inside';
 }
 
 output();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 /*
 var text = undefined;
 =======
+=======
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
 console.log(text); 
 
 /*
 var text = undefined;
 var text = undefined;
+<<<<<<< HEAD
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
+=======
 >>>>>>> 84c4047... Learn Hoisting, Add a file for description
 
 function output(){
@@ -147,6 +159,7 @@ function output(){
     console.log(text);
 }
  text = 'out';
+<<<<<<< HEAD
 <<<<<<< HEAD
  output();
 console.log(text); 
@@ -249,11 +262,17 @@ f1(1); //39
 //hoisting na hole f1 theke f2 k call kora possible silona. kokhonoi mutual recursion bananoi possible hoto na.
 
 =======
+=======
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
  text = 'ot';
  output();
 console.log(text); 
 */
 /*
 var name 
+<<<<<<< HEAD
+*/
+>>>>>>> 84c4047... Learn Hoisting, Add a file for description
+=======
 */
 >>>>>>> 84c4047... Learn Hoisting, Add a file for description

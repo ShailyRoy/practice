@@ -178,3 +178,11 @@ for(var i=0;i<5;i++){
     })(i)
 }
 
+//other solution
+
+for(var i=0;i<5;i++){
+    let j = i;
+    setTimeout(function(){
+        console.log(j);
+    }, i*1000);
+}

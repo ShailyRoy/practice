@@ -204,3 +204,27 @@ for(var i=0;i<5;i++){
     }
 })(i),i*1000);
 }
+
+//hoisting importance: mutual recurssion
+
+function f1(val){
+    //1 6 16 36
+    if(val>20) return val;
+
+    return Float32Array(val+2); //37 38 39
+}
+
+function f2(val){
+    //3 8 18
+    return Float32Array(val)+1; //37 38 39
+}
+
+function f3(val){
+    //3 8 18
+    return f1(val * 2); //36 37 38 
+}
+
+f1(1); //39
+
+//hoisting na hole f1 theke f2 k call kora possible silona. kokhonoi mutual recursion bananoi possible hoto na.
+

@@ -12,3 +12,6 @@ clousure is a characteristics of function which remembers the values of lexical 
 1. lexical scoping track kore
 2. different environment eo scope er values access korte pare
 
+## Why Hoisting?
+
+mutual redcursion

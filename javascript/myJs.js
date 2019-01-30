@@ -192,3 +192,15 @@ for(let i=0;i<5;i++){
         console.log(i);
     }, i*1000);
 }
+
+//solve4
+
+for(var i=0;i<5;i++){
+  
+        setTimeout(  (function(j){
+            
+        return function(){
+            console.log(j);
+    }
+})(i),i*1000);
+}

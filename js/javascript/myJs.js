@@ -298,33 +298,3 @@ f1.call(ob2);       //bob
 //this is dynamic scoping . this changes dynamically. we could write f1.apply(ob) instead of call. same kaj kore
 
 
-function f1(x,y){
-    console.log(this.name);
-    console.log(x+y);
-}
-
-const ob = {
-    name: 'Alice',
-    f11: function(){
-        console.log();
-    }
-}
-
-const ob2 = {
-    name: 'Bob',
-    f12: function(){
-        console.log();
-    }
-}
-
-f1.apply(ob, [1,2]);        //alice 3
-f1.apply(ob2, [2,3]);       //bob 5
-
-//same thing in call
-f1.call(ob, 1,2);
-f1.call(ob2,3,2);
-
-//bind , 1st arguemnet this, then parameters
-
-f1.bind(ob1) ; // eta call hoyna. just bind kore dilam. eta korle f1 jevabei call kora hok ba na hok seta always ob k point korbe as eta bind hoye gese. 
-f1.call(ob2) //output will be Alice
